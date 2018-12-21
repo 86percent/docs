@@ -1,7 +1,19 @@
-# A good documentation
-> Everyone likes it but nobody has the time to do it
+# 86% documentation
+> The code tells you ***what***, a good documentation tells you ***why***.
+
+86% is a platform that lets you integrate seamlessly conversationnal interfaces within your native applications, iOS and Android.
+It has 2 main components :
+* A [web interface](htps://editor.86percent.co) that lets you define your scenari.
+* A mobile SDK, available on Android and iOS that lets you "play" these scenari.
+
+![Global Architecture](/resources/global_architecture.svg)
+
+
 
 ## How to get started with 86% ?
+
+To get started with 86%, you first need to create an account on the platform, then 
+
 
 ### I want to use 86% in my own application :
 In 5 minutes, you should be up and running to use 86% in your own Android or iOS application. To do this, there are 3 basic steps : 
@@ -24,7 +36,6 @@ Comming soon...
 this.wasAComment = 'bla bla';
 ```
 
-![Run Motion](resources/picture.png)
 
 ```kotlin
 var s = "JavaScript syntax highlighting";
