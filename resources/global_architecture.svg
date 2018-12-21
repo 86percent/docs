@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="560px" height="129px" viewBox="0 0 560 129" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>global_architecture</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Architecture" transform="translate(-46.000000, -85.000000)">
+            <g id="global_architecture" transform="translate(46.000000, 85.000000)">
+                <rect id="Rectangle" fill-rule="nonzero" x="0" y="0" width="560" height="129"></rect>
+                <g id="Group" transform="translate(39.000000, 35.000000)">
+                    <rect id="Rectangle" fill="#FC5D60" fill-rule="nonzero" x="0" y="0" width="144" height="59" rx="8"></rect>
+                    <text id="Editor" font-family="SFCompactText-Bold, SF Compact Text" font-size="24" font-weight="bold" fill="#FFFFFF">
+                        <tspan x="36" y="39">Editor</tspan>
+                    </text>
+                </g>
+                <path id="Line" d="M197,63.5 L302,63.5 L302,57.5 L316,64.5 L302,71.5 L302,65.5 L197,65.5 L197,71.5 L183,64.5 L197,57.5 L197,63.5 Z" fill="#000000" fill-rule="nonzero"></path>
+                <g id="Group" transform="translate(316.000000, 35.000000)">
+                    <rect id="Rectangle" fill="#FC5D60" fill-rule="nonzero" x="0" y="0" width="204" height="59" rx="8"></rect>
+                    <text id="Mobile-SDK" font-family="SFCompactText-Bold, SF Compact Text" font-size="24" font-weight="bold" fill="#FFFFFF">
+                        <tspan x="37" y="39">Mobile SDK</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
