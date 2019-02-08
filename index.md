@@ -1,5 +1,6 @@
 ---
-title: 86% documentation
+title: 86% <b>guide</b>
+description: 
 layout: default
 ---
 
