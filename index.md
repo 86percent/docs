@@ -16,6 +16,9 @@ It has 2 main components :
 
 ## Get started with 86%
 [Quick Start guide](quickStart.md)
+
+## Get started with Editor
+[Editor documentation](editor.md)
     
 * On Android : 
     * Create a new Android project. 
