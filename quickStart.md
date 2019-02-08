@@ -1,3 +1,9 @@
+---
+title: Quickstart
+description: Have your bot running in 5min
+layout: page
+---
+
 # Quickstart
 
 ### Create an account
