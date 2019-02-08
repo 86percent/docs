@@ -3,12 +3,10 @@ title: 86% documentation
 layout: default
 ---
 
-# 86% documentation
-
 86% is a platform that lets you integrate seamlessly conversationnal interfaces within your native applications, iOS and Android.
 It has 2 main components :
-* A [web interface](https://editor.86percent.co) that lets you define your scenarios.
-* A mobile SDK, available on Android and iOS that lets you "play" these scenarios.
+* A [web interface](https://editor.86percent.co) that lets you define your scenarios: the Bot Editor.
+* A Mobile SDK, available on Android and iOS that lets you "play" these scenarios.
 
 ![Global Architecture](/resources/global_architecture.svg)
 
@@ -18,7 +16,7 @@ In 5 minutes, learn how to have your first simple bot running!
 [Quickstart guide](quickStart.md)
 
 ## Bot Editor
-The documentation will tell you everything on the Bot Editor.
+This guide will tell you everything on the Bot Editor.
 
 [Bot Editor guide](editor.md)
 
