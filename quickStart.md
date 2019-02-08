@@ -9,7 +9,7 @@ layout: page
 ### Create an account
 
 To get started with 86%, you first need to create an account on the platform.
-1. Navigate to https://editor.86percent.co 
+1. Go to [86% platform](https://editor.86percent.co)
 2. Enter your email, password and name as shown on the screen capture below: 
 ![Sign up on 86percent.co](/resources/signup.png)
 3. You're in!
@@ -30,10 +30,9 @@ Building a very simple Mobile App.
 
 * On iOS : 
     * Create a new Xcode project. 
-    * Add the SDK to your App
-Add the "Lunabot" pod to your project 
+    * Add the "Lunabot" pod to your project 
 [How to](https://guides.cocoapods.org/using/using-cocoapods.html)    
-    
+    * Import the JSON file from the Bot Editor (after having published your bot, go to the "PUBLISH" tab in the Bot Editor to download the jSON file.)
     * Open a bot within your App
     
     ```swift
@@ -42,7 +41,8 @@ Add the "Lunabot" pod to your project
 
 * On Android : 
     * Create a new Android project. 
-    * Add the SDK to your App   
+    * Add the SDK to your App
+    * Import the JSON file from the Bot Editor (after having published your bot, go to the "PUBLISH" tab in the Bot Editor to download the jSON file.) 
     * Open a demo bot within your App 
     * Open your own bot
     * Download the boilerplate 

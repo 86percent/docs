@@ -6,32 +6,16 @@ layout: page
 
 # 86% Editor documentation
 
-
-### First steps with the bot editor
-
-* Sign-up
-* Create your first bot 
-* Add an end node
-* Configure a user input
-* Rules & conditions
-* Make your scenario multi-lingual
-* A/B testing
-
-### Advanced features of the bot editor
-
-* Configure a custom controller 
-* Animations 
-* Message variations
-
-> I like markdown
-
-```java 
-//I like markdown
-this.wasAComment = 'bla bla';
-```
+This guide is referenced from the Bot Editor itself.
 
 
-```kotlin
-var s = "JavaScript syntax highlighting";
-alert(s);
-```
+### [Input bot variables + A/B Testing](#input-botvariables)
+
+### [Node Message](#node-message)
+
+
+### Messages
+
+### Publish
+
+### Settings

@@ -5,9 +5,16 @@ layout: page
 ---
 # 86% SDK documentation
 
-### Input and output : the context
+### Basic steps to play a bot
+
+### Input and output: the bot context
 
 ### Customize your theme
+#### Colors
+#### Fonts
+#### Background
+#### Bubbles
+#### Submit icon
 
 ### Integrate custom controller 
 
