@@ -1,3 +1,8 @@
+---
+title: 86% Editor documentation
+layout: default
+---
+
 # 86% documentation
 > The code tells you ***what***, a good documentation tells you ***why***.
 
