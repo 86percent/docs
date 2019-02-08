@@ -1,3 +1,8 @@
+---
+title: 86% Editor documentation
+layout: editor
+---
+
 # 86% Editor documentation
 
 
