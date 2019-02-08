@@ -17,8 +17,6 @@ layout: editor
 * Make your scenario multi-lingual
 * A/B testing
 
-{% include note.html content="Add your note here." %}
-
 ### Advanced features of the bot editor
 
 * Configure a custom controller 
