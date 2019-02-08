@@ -6,7 +6,7 @@ layout: page
 
 # 86% Editor documentation
 
-This guide is referenced from the Bot Editor itself.
+This guide is referenced from the `Bot Editor` itself.
 
 
 ### Input bot variables + A/B Testing [#](#input-botvariables)
