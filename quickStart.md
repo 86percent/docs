@@ -32,7 +32,7 @@ Building a very simple Mobile App.
     * Create a new Xcode project. 
     * Add the "Lunabot" pod to your project 
 [How to](https://guides.cocoapods.org/using/using-cocoapods.html)    
-    * Import the JSON file from the Bot Editor (after having published your bot, go to the "PUBLISH" tab in the Bot Editor to download the jSON file.)
+    * Import the `JSON file` from the Bot Editor (after having published your bot, go to the `PUBLISH` tab in the `Bot Editor` to download the jSON file.) 
     * Open a bot within your App
     
     ```swift
@@ -41,8 +41,8 @@ Building a very simple Mobile App.
 
 * On Android : 
     * Create a new Android project. 
-    * Add the SDK to your App
-    * Import the JSON file from the Bot Editor (after having published your bot, go to the "PUBLISH" tab in the Bot Editor to download the jSON file.) 
+    * Add the `SDK` to your App
+    * Import the `JSON file` from the Bot Editor (after having published your bot, go to the `PUBLISH` tab in the `Bot Editor` to download the jSON file.) 
     * Open a demo bot within your App 
     * Open your own bot
     * Download the boilerplate 
