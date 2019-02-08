@@ -18,3 +18,22 @@ layout: editor
 * A/B testing
 
 {% include note.html content="Add your note here." %}
+
+### Advanced features of the bot editor
+
+* Configure a custom controller 
+* Animations 
+* Message variations
+
+> I like markdown
+
+```java 
+//I like markdown
+this.wasAComment = 'bla bla';
+```
+
+
+```kotlin
+var s = "JavaScript syntax highlighting";
+alert(s);
+```
