@@ -9,9 +9,9 @@ layout: page
 This guide is referenced from the Bot Editor itself.
 
 
-### [Input bot variables + A/B Testing](#input-botvariables)
+### Input bot variables + A/B Testing [#](#input-botvariables)
 
-### [Node Message](#node-message)
+### Node Message [#](#node-message)
 
 
 ### Messages
