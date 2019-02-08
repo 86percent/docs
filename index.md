@@ -9,7 +9,7 @@ It has 2 main components :
 * A [web interface](https://editor.86percent.co) that lets you define your scenarios: the Bot Editor.
 * A Mobile SDK, available on Android and iOS that lets you "play" these scenarios.
 
-![Global Architecture](/resources/global_architecture.png =250x)
+![Global Architecture](/resources/global_architecture.png){:class="img-responsive"}
 
 ## Quickstart
 In 5 minutes, learn how to have your first simple bot running!
