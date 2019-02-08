@@ -1,4 +1,4 @@
-# 86% Quick Start
+# Quickstart
 
 ### Create an account:
 

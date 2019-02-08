@@ -16,3 +16,5 @@ layout: editor
 * Rules & conditions
 * Make your scenario multi-lingual
 * A/B testing
+
+{% include note.html content="Add your note here." %}
