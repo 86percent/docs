@@ -1,5 +1,6 @@
 ---
 title: 86% Editor documentation
+description: Learn how to use the Bot Editor
 layout: editor
 ---
 
