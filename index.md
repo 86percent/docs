@@ -1,5 +1,5 @@
 ---
-title: 86% Editor documentation
+title: 86% documentation
 layout: default
 ---
 
@@ -20,9 +20,9 @@ In 5 minutes, learn how to have your first simple bot running!
 ## Bot Editor
 The documentation will tell you everything on the Bot Editor.
 
-[Editor documentation](editor.md)
+[Bot Editor guide](editor.md)
 
 ## Mobile SDK
 Learn the details on the Mobile SDK you'll integrate in Xcode and Android Studio.
 
-[Mobile SDK documentation](sdk.md)
+[Mobile SDK guide](sdk.md)
