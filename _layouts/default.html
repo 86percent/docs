@@ -2,6 +2,16 @@
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
 
+    <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/anchor-js/3.2.2/anchor.min.js"></script>
+    <script>
+      anchors.options = {
+        placement: 'left',
+        icon: '#'
+      };
+      anchors.add();
+    </script>
+
     {% if site.google_analytics %}
       <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
       <script>
