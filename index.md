@@ -1,6 +1,6 @@
 ---
 title: 86% <b>guide</b>
-description: 
+description: Learn more about using 86%, or dive into our detailed guides.
 layout: default
 ---
 
@@ -16,12 +16,13 @@ In 5 minutes, learn how to have your first simple bot running!
 
 [Quickstart guide](quickStart.md)
 
-## Bot Editor
-This guide will tell you everything on the Bot Editor.
-
-[Bot Editor guide](editor.md)
-
 ## Mobile SDK
 Learn the details on the Mobile SDK you'll integrate in Xcode and Android Studio.
 
 [Mobile SDK guide](sdk.md)
+
+
+## Bot Editor
+Dive into our detailed guide on the Bot Editor.
+
+[Bot Editor guide](editor.md)
