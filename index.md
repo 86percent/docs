@@ -14,12 +14,15 @@ It has 2 main components :
 
 ## Quickstart
 In 5 minutes, learn how to have your first simple bot running!
-[Quick Start guide](quickStart.md)
+
+[Quickstart guide](quickStart.md)
 
 ## Bot Editor
 The documentation will tell you everything on the Bot Editor.
+
 [Editor documentation](editor.md)
 
 ## Mobile SDK
 Learn the details on the Mobile SDK you'll integrate in Xcode and Android Studio.
-[SDK](sdk.md)
+
+[Mobile SDK documentation](sdk.md)
