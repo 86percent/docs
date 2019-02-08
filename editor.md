@@ -8,7 +8,7 @@ layout: page
 
 In the `Bot Editor`, you will find references to this guide, contextualized in the various sections.
 
-### Input bot variables + A/B Testing [#](#input-botvariables)
+### Input bot variables + A/B Testing
 
 #### Input bot variables
 These variables will have to be passed in the Mobile App to the `Mobile SDK` before starting the `bot`.
@@ -20,7 +20,7 @@ This `OPTION A/B` variable is a `boolean` and is either `true` (it's A) or `fals
 
 On this `OPTION A/B`, you can define `Rules` in the `bot` to follow different paths and then measure conversions.
 
-### Node Message [#](#node-message)
+### Node Message
 
 The `bot  message` you define in the `EDITOR VIEW` is the default message, in the default language of your `bot`.
 In the `MESSAGES` tab, you can manage all your messages:
