@@ -1,6 +1,6 @@
 ---
 title: 86% <b>guide</b>
-description: Learn more about using 86%, or dive into our detailed guides.
+description: Learn more about using 86% with our Quickstart guide, or dive into our detailed guides.
 layout: default
 ---
 
