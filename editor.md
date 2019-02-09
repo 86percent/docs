@@ -24,9 +24,6 @@ On this `OPTION A/B`, you can define `rules` in the `bot` to follow different pa
 
 #### Default message
 The `bot  message` you define in the `EDITOR VIEW` is the default message, in the default language of your `bot`.
-In the `MESSAGES` tab, you can manage all your messages:
-* translate them in various languages (go to `SETTINGS` / `General info` to add languages to your `bot`)
-* and add `variations` to your message, either to test the conversion of other ways to talk to your users, or simply to make it more natural in terms of interactions (e.g. for a `bot` you'll display several times to your user, you don't have to always have the exact same messages).
 
 #### URL-only message
 If your message is only a URL, then the `Bot Editor` will try to determine the MIME type (e.g. image/gif, image/png...).
@@ -47,3 +44,8 @@ By default, if it's not an end message, you have to determine the next message. 
 
 #### What a rule is
 Based on the `variables` available in the `bot`, you can determine `rules` and `conditions` to have your end-user following different paths of your scenario.
+
+## <a name="messages"></a>Messages
+In the `MESSAGES` tab, you can manage all your messages:
+* translate them in various languages (go to `SETTINGS` / `General info` to add languages to your `bot`)
+* and add `variations` to your message, either to test the conversion of other ways to talk to your users, or simply to make it more natural in terms of interactions (e.g. for a `bot` you'll display several times to your user, you don't have to always have the exact same messages).
