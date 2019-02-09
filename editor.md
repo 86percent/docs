@@ -4,8 +4,6 @@ description: Learn how to use the Bot Editor
 layout: page
 ---
 
-# 86% Editor documentation
-
 In the `Bot Editor`, you will find references to this guide, contextualized in the various sections.
 
 ## <a name="botvars-ab"></a>Input bot variables and A/B Testing
