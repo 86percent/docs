@@ -43,6 +43,9 @@ By default, if it's not an end message, you have to determine the next message. 
 ### What a rule is
 Based on the `variables` available in the `bot`, you can determine `rules` and `conditions` to have your end-user following different paths of your scenario.
 
+### Priority
+In the list of `rules` you'll determine for a given message, the first `rule` matching the conditions wins. It means you have to put first the `rule` having the highest priority, and so on. 
+
 ## <a name="messages"></a>Messages
 In the `MESSAGES` tab, you can manage all your messages:
 * translate them in various languages (go to `SETTINGS` / `General info` to add languages to your `bot`)
