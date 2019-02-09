@@ -6,7 +6,7 @@ layout: page
 
 In the `Bot Editor`, you will find references to this guide, contextualized in the various sections.
 
-# <a name="botvars-ab"></a>Input bot variables and A/B Testing
+# <a name="botvars-ab"></a>Bot inputs
 
 ## Input bot variables
 These `variables` will have to be passed in the Mobile App to the `Mobile SDK` before starting the `bot`.
