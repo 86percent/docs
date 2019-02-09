@@ -8,7 +8,7 @@ layout: page
 
 In the `Bot Editor`, you will find references to this guide, contextualized in the various sections.
 
-### [Input bot variables and A/B Testing](#test)
+### <a name="botvars-ab"></a>Input bot variables and A/B Testing
 
 #### Input bot variables
 These variables will have to be passed in the Mobile App to the `Mobile SDK` before starting the `bot`.
@@ -26,5 +26,3 @@ The `bot  message` you define in the `EDITOR VIEW` is the default message, in th
 In the `MESSAGES` tab, you can manage all your messages:
 * translate them in various languages (go to `SETTINGS` / `General info` to add languages to your `bot`)
 * and add `variations` to your message, either to test the conversion of other ways to talk to your users, or simply to make it more natural in terms of interactions (e.g. for a `bot` you'll display several times to your user, you don't have to always have the exact same messages).
-
-### <a name="pookie"></a>Some heading
