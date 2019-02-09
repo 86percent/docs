@@ -8,41 +8,41 @@ layout: page
 
 In the `Bot Editor`, you will find references to this guide, contextualized in the various sections.
 
-### <a name="botvars-ab"></a>Input bot variables and A/B Testing
+## <a name="botvars-ab"></a>Input bot variables and A/B Testing
 
-#### Input bot variables
+### Input bot variables
 These `variables` will have to be passed in the Mobile App to the `Mobile SDK` before starting the `bot`.
 If your Mobile App does not give one of the `variables` (it's possible), then this `variable` will be undefined. In a `rule`, you can then test its existence.
 
-#### A/B Testing
+### A/B Testing
 When you activate the A/B Testing mode for the entire `bot`, a new `Input bot variable` will be available in the `bot`.
 This `OPTION A/B` variable is a `boolean` and is either `true` (it's A) or `false` (it's B).
 
 On this `OPTION A/B`, you can define `rules` in the `bot` to follow different paths and then measure conversions.
 
-### <a name="node-message"></a>Node Message
+## <a name="node-message"></a>Node Message
 
-#### Default message
+### Default message
 The `bot  message` you define in the `EDITOR VIEW` is the default message, in the default language of your `bot`.
 
-#### URL-only message
+### URL-only message
 If your message is only a URL, then the `Bot Editor` will try to determine the MIME type (e.g. image/gif, image/png...).
 This will be used by the `Mobile SDK` to display it nicely in the App.
 Be careful: in other languages, make sure to put a URL as well. This MIME type is determined for the default language.
 
-#### "End" switch
+### "End" switch
 If this is an end of your bot, you just have to turn on the switch.
 
 Then you can configure this "end", either by displaying a standard left bubble, or a large central button.
 
 Moreover, here you can chain bots if necessary: if you want to have the `Mobile SDK` chaining another `bot`.
 
-### <a name="next-messages-rules"></a>Next messages and rules
+## <a name="next-messages-rules"></a>Next messages and rules
 
-#### Next message
+### Next message
 By default, if it's not an end message, you have to determine the next message. The `Mobile SDK` will simply move to this message.
 
-#### What a rule is
+### What a rule is
 Based on the `variables` available in the `bot`, you can determine `rules` and `conditions` to have your end-user following different paths of your scenario.
 
 ## <a name="messages"></a>Messages
