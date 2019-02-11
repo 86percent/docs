@@ -36,6 +36,7 @@ Building a very simple Mobile App.
     * Open a bot within your App
     
     ```swift
+        //1-liner to integrate 86% SDK in your App
         
     ```
 
