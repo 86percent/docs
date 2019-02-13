@@ -50,3 +50,10 @@ In the list of `rules` you'll determine for a given message, the first `rule` ma
 In the `MESSAGES` tab, you can manage all your messages:
 * translate them in various languages (go to `SETTINGS` / `General info` to add languages to your `bot`)
 * and add `variations` to your message, either to test the conversion of other ways to talk to your users, or simply to make it more natural in terms of interactions (e.g. for a `bot` you'll display several times to your user, you don't have to always have the exact same messages).
+
+# <a name="user-input"></a>User input
+
+## <a name="user-input-syntax"></a>Syntax to display variable
+To display the user input in a message, you simply type the variable name like this `<variableName>`
+
+> E.g.: Nice to meet you &lt;firstname&gt;!
