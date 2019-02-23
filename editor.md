@@ -57,3 +57,13 @@ In the `MESSAGES` tab, you can manage all your messages:
 To display the user input in a message, you simply type the variable name like this `<variableName>`
 
 > E.g.: Nice to meet you &lt;firstname&gt;!
+
+
+# <a name="publishing"></a>Publishing bots
+
+
+
+# <a name="settings"></a>Bot settings
+
+## <a name="settings-uuid"></a>Bot UUID : 
+Is the bot main identifier, necessary to "play" the bot from the SDK.
