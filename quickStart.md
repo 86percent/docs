@@ -29,6 +29,10 @@ If you want to learn more on the Bot Editor, [open the Bot Editor documentation]
  - **Chatbot** : we refer as `chatbot` a scenario that is defined within the `web editor`.
  - **Conversation** : we refer as `conversation` the content of the exchange between the user and 86% SDK.   
 
+Note that it's possible to play several bots in a single conversation, either by chaining bots together or by manually starting a bot in an existing conversation.
+
+![Conversation and bots](/resources/conversation.svg)
+
 ### Basic integration in your iOS App 
 
 To run a bot within your App, there are 2 simple steps to `register` it and create a `conversation`.

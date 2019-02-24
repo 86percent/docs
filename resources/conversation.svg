@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="246px" height="86px" viewBox="0 0 246 86" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Conversation</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Conversation" transform="translate(1.000000, 1.000000)">
+            <path d="M2,0 L242,0 C243.104569,-2.02906125e-16 244,0.8954305 244,2 L244,82 C244,83.1045695 243.104569,84 242,84 L2,84 C0.8954305,84 1.3527075e-16,83.1045695 0,82 L0,2 C-1.3527075e-16,0.8954305 0.8954305,2.02906125e-16 2,0 Z" id="Rectangle" stroke="#E9E9E9" stroke-linecap="square" stroke-dasharray="4,4"></path>
+            <path d="M18,63 L220.925796,63" id="Line-3" stroke="#FC5D60" stroke-linecap="square" stroke-dasharray="4,4"></path>
+            <text font-family="SFUIText-Medium, SF UI Text" font-size="12" font-weight="400" fill="#000000">
+                <tspan x="7.03613281" y="19">Conversation</tspan>
+            </text>
+            <g id="Group" transform="translate(126.000000, 35.000000)">
+                <rect id="Rectangle" fill="#FC5D60" x="0" y="0" width="84" height="24" rx="2"></rect>
+                <text id="Bot-n" font-family="SFUIText-Medium, SF UI Text" font-size="14" font-weight="400" fill="#FFFFFF">
+                    <tspan x="24.8256836" y="17">Bot n</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(18.000000, 35.000000)">
+                <rect id="Rectangle" fill="#FC5D60" x="0" y="0" width="84" height="24" rx="2"></rect>
+                <text id="Bot-1" font-family="SFUIText-Medium, SF UI Text" font-size="14" font-weight="400" fill="#FFFFFF">
+                    <tspan x="25.6391602" y="17">Bot 1</tspan>
+                </text>
+            </g>
+            <polygon id="Triangle" fill="#FC5D60" transform="translate(226.000000, 63.000000) rotate(-270.000000) translate(-226.000000, -63.000000) " points="226 58 235 68 217 68"></polygon>
+            <text id="…" font-family="SFUIText-Medium, SF UI Text" font-size="14" font-weight="400" fill="#FC5D60">
+                <tspan x="108.138184" y="52">…</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
