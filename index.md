@@ -4,10 +4,10 @@ description: Learn more about using 86% with our Quickstart guide, or dive into 
 layout: default
 ---
 
-86% is a platform that lets you integrate seamlessly conversationnal interfaces within your native applications, iOS and Android.
+86% is a platform that lets you integrate seamlessly conversational interfaces within your native applications, iOS and Android.
 It has 2 main components :
 * A [web interface](https://editor.86percent.co) that lets you define your scenarios: the `Bot Editor`.
-* A `Mobile SDK`, available on Android and iOS that lets you "play" these scenarios.
+* A Mobile SDK, `86% SDK`, available on Android and iOS that lets you "play" these scenarios.
 
 ![Global Architecture](/resources/global_architecture.png){:class="img-responsive"}
 
@@ -19,7 +19,7 @@ In 5 minutes, learn how to have your first simple bot running!
 ## Mobile SDK
 Learn the details on the `Mobile SDK` you'll integrate in Xcode and Android Studio.
 
-[Mobile SDK guide](sdk.md)
+Coming soon
 
 
 ## Bot Editor
