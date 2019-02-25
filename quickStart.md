@@ -54,7 +54,7 @@ Typically, you would define a function that you call from the `application didFi
 ```
 
 **Where:** 
-- `uuid` is the bot identifier. It can be found from the `Bot Editor`, in the [bot's settings](editor.md)(#settings-uuid).
+- `uuid` is the bot identifier. It can be found from the `Bot Editor`, in the [bot's settings](editor.md#settings-uuid).
 - `fetchingStrategy` can be of 3 kinds:
     - `onlineWithDefault` (recommended): you provide the SDK with a default file to use in case of no internet. If you are connected though, the SDK will automatically update your bot to the latest version defined in the `Bot Editor` and compatible with your App (see the section on `majorVersion`).    
     - `online`: the bot definition is loaded directly from the web and you don't need to provide any default file. It will raise an error if the user is not connected to internet.
