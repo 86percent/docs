@@ -9,7 +9,7 @@ layout: page
 ### Create an account
 
 To get started with 86%, you first need to create an account on the platform.
-1. Go to [86% platform](https://editor.86percent.co)
+1. Go to [86% platform](https://editor.86percent.co){:target="_blank"}
 2. Enter your email, password and name as shown on the screen capture below: 
 ![Sign up on 86percent.co](/resources/signup.png)
 3. You're in!
