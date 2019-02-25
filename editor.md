@@ -58,12 +58,9 @@ To display the user input in a message, you simply type the variable name like t
 
 > E.g.: Nice to meet you &lt;firstname&gt;!
 
-
-# <a name="publishing"></a>Publishing bots
-
-
-
 # <a name="settings"></a>Bot settings
 
-## <a name="settings-uuid"></a>Bot UUID : 
-Is the bot main identifier, necessary to "play" the bot from the SDK.
+## <a name="settings-uuid"></a>Bot UUID
+The bot UUID is the bot main identifier, necessary to "play" the bot from the `86% SDK`.
+
+To find it, open one of your bots, and go to `SETTINGS` / `General info`
