@@ -62,9 +62,10 @@ Typically, you would define a function that you call from the `application didFi
     - `offline`: the `bot file` is provided within the App build and will never change dynamically.
     
 **What is the majorVersion?**
-Use this version to enforce compatibility between your App and your `bot file`. 
 
-The `86% SDK` automatically fetches new `bot files` once they are published in the `Bot Editor`. But only `bot files` with the same `majorVersion`.
+The `major version` helps enforcing the compatibility between your App and your `bot file`. 
+
+In case the `fetchingStrategy` is not offline, the `86% SDK` automatically fetches new `bot files` once they are published in the `Bot Editor`. But only `bot files` with the same `majorVersion`.
     
 ## Step 2: Play your bot
 
