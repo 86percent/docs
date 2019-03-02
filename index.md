@@ -19,7 +19,7 @@ In 5 minutes, learn how to have your first simple bot running!
 ## Mobile SDK
 Learn the details on the `Mobile SDK` you'll integrate in Xcode and Android Studio.
 
-Coming soon
+[Reference API: iOS](https://www.86percent.co/documentation/ios/)
 
 
 ## Bot Editor
