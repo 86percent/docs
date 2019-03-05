@@ -11,18 +11,21 @@ It has 2 main components :
 
 ![Global Architecture](/resources/global_architecture.png){:class="img-responsive"}
 
-## Quickstart
-In 5 minutes, learn how to have your first simple bot running!
 
-[Quickstart guide](quickStart.md)
+## Guides
 
-## Mobile SDK
+1. [Quick start](quickStart.md): In 5 minutes, learn how to have your first simple bot running.
+2. [Bot Editor](editor.md): Dive into our detailed guide on the `Bot Editor`.
+3. [Themes](themes.md): Learn how to customize your bot look & feel in-app.
+
+
+## Mobile SDK Reference
+
 Learn the details on the `Mobile SDK` you'll integrate in Xcode and Android Studio.
 
 [Reference API: iOS](https://www.86percent.co/documentation/ios/)
 
+[Reference API: Android](https://www.86percent.co/documentation/android/)
 
-## Bot Editor
-Dive into our detailed guide on the `Bot Editor`.
 
-[Bot Editor guide](editor.md)
+
