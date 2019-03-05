@@ -28,7 +28,7 @@ Simply add the following to your `Podfile`, between `def projectPod` and the fol
 
 ```
 def projectPods
-    pod 'Lunabot'
+    pod 'EightySixPercent'
 end
 ```
 For more information about pod integration, please refer to the [Cocoapod web site](https://cocoapods.org/).
