@@ -40,15 +40,15 @@ For more information about pod integration, please refer to the [Cocoapod web si
 Typically, you would define a function that you call from the `application didFinishLaunchingWithOptions` in your `AppDelegate`.   
 
 ```swift
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        initializeEightySixPercent()
-        return true
-    }
+func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+    initializeEightySixPercent()
+    return true
+}
 
-    func initializeEightySixPercent() {
-        EPManager.shared.initialize()
-        EPManager.shared.registerBot(uuid: "YOU_BOT_UUID_GOES_HERE", fetchingStrategy: .onlineWithDefault(majorVersion: 1, fileName: "SimpleDemo.json"))
-    }
+func initializeEightySixPercent() {
+    EPManager.shared.initialize()
+    EPManager.shared.registerBot(uuid: "YOU_BOT_UUID_GOES_HERE", fetchingStrategy: .onlineWithDefault(majorVersion: 1, fileName: "SimpleDemo.json"))
+}
 ```
    
 ### Step 2: Play your bot
@@ -56,18 +56,18 @@ Typically, you would define a function that you call from the `application didFi
 To play your `bot`, you need to create a `conversation`, starting it with your `bot` and then you can present the `86% SDK` main controller with your `conversation` played within.
 
 ```swift
-    // Create a new conversation: 
-    let conversation = EPChatConversation(botUuid: "YOU_BOT_UUID_GOES_HERE")
-    
-    // Get the controller that displays this conversation:
-    EPManager.shared.controller(for: conversation) { controller, error in
-        if let controller = controller {
-            controller.navigationItem.leftBarButtonItem = UIBarButtonItem(barButtonSystemItem: .stop, target: self, action: #selector(self.dismissController))
-            self.presentController(UINavigationController(rootViewController: controller))
-        } else {
-            self.showAlert(message: error?.localizedDescription ?? "N/A")
-        }
+// Create a new conversation: 
+let conversation = EPChatConversation(botUuid: "YOU_BOT_UUID_GOES_HERE")
+
+// Get the controller that displays this conversation:
+EPManager.shared.controller(for: conversation) { controller, error in
+    if let controller = controller {
+        controller.navigationItem.leftBarButtonItem = UIBarButtonItem(barButtonSystemItem: .stop, target: self, action: #selector(self.dismissController))
+        self.presentController(UINavigationController(rootViewController: controller))
+    } else {
+        self.showAlert(message: error?.localizedDescription ?? "N/A")
     }
+}
 ``` 
 
 ## Basic integration in your Android App
@@ -78,19 +78,19 @@ To run a bot within your App, you first need to add 86% SDK as a pod to your pro
 
 In the project build.gradle add the 86% SDK repository: 
 ```
-    maven {
-        url "http://artifactory.86percent.co/artifactory/bot-release-local"
-        credentials {
-            username 'consumer'
-            password 'AKCp5btpEzn13U86LW9jzfWeAuaNnHncWj6Rcy9avax9FcUXUrEhTwNnojuhbZUj93bQMzfeK'
-        }
+maven {
+    url "http://artifactory.86percent.co/artifactory/bot-release-local"
+    credentials {
+        username 'consumer'
+        password 'AKCp5btpEzn13U86LW9jzfWeAuaNnHncWj6Rcy9avax9FcUXUrEhTwNnojuhbZUj93bQMzfeK'
     }
+}
 ```
 
 Then in your app `build.gradle` file, add the following: 
 
 ```
-    implementation 'co.86percent:bot:0.10.1’
+implementation 'co.86percent:bot:0.10.1’
 ```
 
 ### Step 1: Register your bot
@@ -98,10 +98,10 @@ Then in your app `build.gradle` file, add the following:
 Initialize the 86% SDK, typically in your Application `onCreate` , call a `initEightySixPercent()` method that does the following: 
 
 ```kotlin
-    private fun initEightySixPercent() {
-        EPManager.init(this)
-        EPManager.registerBot(this, "YOU_BOT_UUID_GOES_HERE", EPBotFetchingStrategy.OnlineWithDefault(1,"bots/SimpleDemo.json"))
-    }
+private fun initEightySixPercent() {
+    EPManager.init(this)
+    EPManager.registerBot(this, "YOU_BOT_UUID_GOES_HERE", EPBotFetchingStrategy.OnlineWithDefault(1,"bots/SimpleDemo.json"))
+}
 ```
 
 ### Step 2: play your bot
