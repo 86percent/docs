@@ -136,3 +136,6 @@ The `major version` helps enforcing the compatibility between your App and your 
 
 In case the `fetchingStrategy` is not offline, the `86% SDK` automatically fetches new `bot files` once they are published in the `Bot Editor`. But only `bot files` with the same `majorVersion`.
  
+### What's next?
+
+Next, you can take a look at the SDK API reference for [Android](https://www.86percent.co/documentation/android/) and [iOS](https://www.86percent.co/documentation/ios/).
