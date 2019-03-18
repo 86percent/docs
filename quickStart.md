@@ -80,10 +80,6 @@ In the project build.gradle add the 86% SDK repository:
 ```
 maven {
     url "http://artifactory.86percent.co/artifactory/bot-release-local"
-    credentials {
-        username 'consumer'
-        password 'AKCp5btpEzn13U86LW9jzfWeAuaNnHncWj6Rcy9avax9FcUXUrEhTwNnojuhbZUj93bQMzfeK'
-    }
 }
 ```
 
