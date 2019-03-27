@@ -72,7 +72,8 @@ Here is a full theming example, including the helper when instantiating `EPAppea
 ```swift
 class func myCustomTheme() -> EPAppearance {   
     let mainColor = UIColor(hexString: "#0275D8")
-    let appearance: EPAppearance = EPAppearance(resourcePrefix: "mytheme", mainColor: mainColor, secondaryColor: mainColor)
+    let secondaryColor = UIColor(hexString: "#0379D8")
+    let appearance: EPAppearance = EPAppearance(resourcePrefix: "mytheme", mainColor: mainColor, secondaryColor: secondaryColor)
     appearance.bubbleAppearance.incoming.textColor = .black
     appearance.bubbleAppearance.incomingFollowed.textColor = .black
     appearance.customFontName = "ComicBook"
