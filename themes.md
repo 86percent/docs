@@ -61,8 +61,8 @@ let secondaryColor = UIColor(hexString: "#0379D8")
 let appearance: EPAppearance = EPAppearance(resourcePrefix: "mytheme", mainColor: mainColor, secondaryColor: secondaryColor)
 ```
 
-* `mainColor`: this is the color of the outgoing bubbles (right-hand side bubbles)
-* `secondayColor`: this is the color of the incoming bubbles (left-hand side bubbles)
+* `mainColor`: this is the color of the outgoing bubbles (right-hand side bubbles, `outgoing` and `outgoingFollowed`)
+* `secondayColor`: this is the color of the incoming bubbles (left-hand side bubbles, `incoming` and `incomingFollowed`)
 * based on the `resourcePrefix`, the SDK will try to fetch the graphical resources, following this naming convention (e.g. mytheme_incomingBubble, mytheme_incomingBubbleNoTail...):
 
 ![Global Architecture](/resources/themes/theme_prefix.png){:class="img-responsive"}
