@@ -69,7 +69,7 @@ let appearance: EPAppearance = EPAppearance(resourcePrefix: "mytheme", mainColor
 
 # Code sample
 
-Here is a full theming example, including the helper when instantiating `EPAppearance`:
+Here is an example, including the helper when instantiating `EPAppearance`:
 
 ```swift
 class func myCustomTheme() -> EPAppearance {   
