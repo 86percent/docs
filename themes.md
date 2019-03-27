@@ -10,28 +10,28 @@ To create a theme, you'll have to handle an `EPAppearance` object.
 
 Here is the structure. We'll explore the different levels of customization in the documentation below.
 
-![Global Architecture](/resources/themes/architecture.png){:class="img-responsive"}
+![Global Architecture](/resources/themes/architecture.png)
 
-On the `EPAppearance`, you can define for instance:
-* the main tint color `mainTintColor`
-* the font with `customFontName`
-* the background color `customBackgroundColor`
+On the `EPAppearance`, you can for instance customize:
+* the `mainTintColor`
+* the `customFontName`
+* the `customBackgroundColor`
+* for all possibilities, please refer to the [iOS Reference API](https://www.86percent.co/documentation/ios/Classes/EPBubbleChatAppearanceOption.html)
 
-In the `EPAppearance`, you can also customize the look and feel of the `Bubbles` and the `Input` (the custom keyboard displayed so that the user can answer the question).
+You can also customize the look and feel of the `Bubbles`, and the `Input` (the custom keyboard displayed so that the user can answer the chatbot's question).
 
 [iOS Reference API](https://www.86percent.co/documentation/ios/Classes/EPAppearance.html)
 
 ## Bubbles
 On `Bubbles`, you can customize:
-* the loading indicator `typingAnimation`
+* the `typingAnimation`: the loading indicator
 * the shapes of the bubbles, of class `Appearance`, that can be different if it's an incoming or outgoing bubble, and if it has a tail or not. 
-These objects are `incoming`, `incomingFollowed`, `outgoing`, and `outgoingFollowed`
-
-[iOS Reference API](https://www.86percent.co/documentation/ios/Classes/EPBubbleChatAppearanceOption.html#/s:16EightySixPercent28EPBubbleChatAppearanceOptionC014incomingBubbleF0AA0dfG0CSgvp)
+These objects are `incoming`, `incomingFollowed`, `outgoing`, and `outgoingFollowed`, of class `Appearance`.
+* for all possibilities, please refer to the [iOS Reference API](https://www.86percent.co/documentation/ios/Classes/EPBubbleChatAppearanceOption.html)
 
 ### Bubble Appearance
 
-On an `Appearance` object, you can define for instance:
+On an Bubble `Appearance` object, you can define for instance:
 
 * the `textColor` (UIColor)
 * the `strongTextColor` (UIColor)
@@ -47,7 +47,7 @@ Important: all images for the bubbles must be stretchable, and sliced in Xcode (
 
 ## Input
 
-On the `EPAppearance`, you can also customize the `Input` theme (where the user sends inputs).
+On the `EPAppearance`, you can also customize the `Input` (where the user sends inputs).
 * `textContainer` (UIImage), the image to use as the input text field background.
 * `positiveSendIcon` (UIImage), this is the "Send button" icon for positive option.
 * and same principle for `negativeSendIcon`, `searchIcon`, and `sendIcon`
@@ -68,7 +68,7 @@ The `resourcePrefix` will try to fetch the graphical resources, following this n
 
 # Code sample
 
-Here is a full theming example:
+Here is a full theming example, including the helper when instantiating `EPAppearance`:
 
 ```swift
 class func myCustomTheme() -> EPAppearance {   
