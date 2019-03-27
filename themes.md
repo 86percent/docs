@@ -25,7 +25,7 @@ On `Bubbles`, you can customize:
 * the `typingAnimation`: the loading indicator
 * the shapes of the bubbles that can be different if it's an incoming or outgoing bubble, and if it has a tail or not. 
 These objects are `incoming`, `incomingFollowed`, `outgoing`, and `outgoingFollowed`, of class `Appearance`.
-* for all possibilities, please refer to the [iOS Reference API](https://www.86percent.co/documentation/ios/Classes/EPAppearance.html)
+* for all possibilities, please refer to the [iOS Reference API](https://www.86percent.co/documentation/ios/Classes/EPAppearance/Bubbles.html)
 
 ### Bubble Appearance
 
@@ -37,7 +37,7 @@ On a Bubble `Appearance` object, you can define for instance:
 * the `bubbleImage` (UIImage), the bubble background image (will be tinted by the `backgroundColor`).
 * the `bubbleOverImage` (UIImage), coming over the image for video/pictures
 * the `cellLayoutOption` (LayoutOption), on which you can customize offsets/insets for instance.
-* for all possibilities, please refer to the [iOS Reference API](https://www.86percent.co/documentation/ios/Classes/EPAppearance.html)
+* for all possibilities, please refer to the [iOS Reference API](https://www.86percent.co/documentation/ios/Classes/EPAppearance/Bubbles/Appearance.html)
 
 Important: all images for the bubbles must be stretchable, and sliced in Xcode (see screenshot below).
 
@@ -49,7 +49,7 @@ On the `EPAppearance`, you can also customize the `Input` (where the user sends 
 * `textContainer` (UIImage), the image to use as the input text field background.
 * `positiveSendIcon` (UIImage), this is the "Send button" icon for positive option.
 * and same principle for `negativeSendIcon`, `searchIcon`, and `sendIcon`
-* for all possibilities, please refer to the [iOS Reference API](https://www.86percent.co/documentation/ios/Classes/EPAppearance.html)
+* for all possibilities, please refer to the [iOS Reference API](https://www.86percent.co/documentation/ios/Classes/EPAppearance/Input.html)
 
 ## Helpers
 
