@@ -20,12 +20,10 @@ On the `EPAppearance`, you can for instance customize:
 
 You can also customize the look and feel of the `Bubbles`, and the `Input` (the custom keyboard displayed so that the user can answer the chatbot's question).
 
-[iOS Reference API](https://www.86percent.co/documentation/ios/Classes/EPAppearance.html)
-
 ## Bubbles
 On `Bubbles`, you can customize:
 * the `typingAnimation`: the loading indicator
-* the shapes of the bubbles, of class `Appearance`, that can be different if it's an incoming or outgoing bubble, and if it has a tail or not. 
+* the shapes of the bubbles that can be different if it's an incoming or outgoing bubble, and if it has a tail or not. 
 These objects are `incoming`, `incomingFollowed`, `outgoing`, and `outgoingFollowed`, of class `Appearance`.
 * for all possibilities, please refer to the [iOS Reference API](https://www.86percent.co/documentation/ios/Classes/EPBubbleChatAppearanceOption.html)
 
@@ -59,7 +57,8 @@ To quickly define a `EPAppearance`, you can call the constructor with the follow
 
 ```swift
 let mainColor = UIColor(hexString: "#0275D8")
-let appearance: EPAppearance = EPAppearance(resourcePrefix: "mytheme", mainColor: mainColor, secondaryColor: mainColor)
+let secondaryColor = UIColor(hexString: "#0379D8")
+let appearance: EPAppearance = EPAppearance(resourcePrefix: "mytheme", mainColor: mainColor, secondaryColor: secondaryColor)
 ```
 
 The `resourcePrefix` will try to fetch the graphical resources, following this naming convention (e.g. mytheme_incomingBubble, mytheme_incomingBubbleNoTail...):
