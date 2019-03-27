@@ -29,7 +29,7 @@ These objects are `incoming`, `incomingFollowed`, `outgoing`, and `outgoingFollo
 
 ### Bubble Appearance
 
-On an Bubble `Appearance` object, you can define for instance:
+On a Bubble `Appearance` object, you can define for instance:
 
 * the `textColor` (UIColor)
 * the `strongTextColor` (UIColor)
