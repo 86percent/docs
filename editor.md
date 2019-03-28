@@ -6,7 +6,7 @@ layout: page
 
 In the `Bot Editor`, you will find references to this guide, contextualized in the various sections.
 
-# <a name="botvars-ab"></a>Bot inputs
+# <a name="botvars-ab"></a>Global configuration
 
 ## Input bot variables
 These `variables` will have to be passed in the Mobile App to the `Mobile SDK` before starting the `bot`.
