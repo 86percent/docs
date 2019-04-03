@@ -24,12 +24,10 @@ If you want to learn more on the Bot Editor, [open the Bot Editor documentation]
 To run a bot within your App, you first need to add 86% SDK as a pod to your project. Then, there are 2 simple steps to `register` it and create a `conversation`.
 
 ### Add 86% SDK to your project
-Simply add the following to your `Podfile`, between `def projectPod` and the following `end`.
+Simply add the following to your `Podfile`.
 
 ```
-def projectPods
     pod 'EightySixPercent'
-end
 ```
 For more information about pod integration, please refer to the [Cocoapod web site](https://cocoapods.org/).
 
@@ -41,13 +39,9 @@ Typically, you would define a function that you call from the `application didFi
 
 ```swift
 func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-    initializeEightySixPercent()
-    return true
-}
-
-func initializeEightySixPercent() {
     EPManager.shared.initialize()
-    EPManager.shared.registerBot(uuid: "YOU_BOT_UUID_GOES_HERE", fetchingStrategy: .onlineWithDefault(majorVersion: 1, fileName: "SimpleDemo.json"))
+    EPManager.shared.registerBot(uuid: "YOU_BOT_UUID_GOES_HERE", fetchingStrategy: .online(majorVersion: nil))
+    return true
 }
 ```
    
@@ -62,7 +56,7 @@ let conversation = EPChatConversation(botUuid: "YOU_BOT_UUID_GOES_HERE")
 // Get the controller that displays this conversation:
 EPManager.shared.controller(for: conversation) { controller, error in
     if let controller = controller {
-        controller.navigationItem.leftBarButtonItem = UIBarButtonItem(barButtonSystemItem: .stop, target: self, action: #selector(self.dismissController))
+        //depending on the fetching strategy you have chosen you may to have to manage error / HUD
         self.presentController(UINavigationController(rootViewController: controller))
     } else {
         self.showAlert(message: error?.localizedDescription ?? "N/A")
