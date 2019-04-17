@@ -56,7 +56,7 @@ let conversation = EPChatConversation(botUuid: "YOU_BOT_UUID_GOES_HERE")
 // Get the controller that displays this conversation:
 EPManager.shared.controller(for: conversation) { controller, error in
     if let controller = controller {
-        //depending on the fetching strategy you have chosen you may to have to manage error / HUD
+        //depending on the fetching strategy you have chosen you may need to handle error and a HUD
         self.presentController(UINavigationController(rootViewController: controller))
     } else {
         self.showAlert(message: error?.localizedDescription ?? "N/A")
@@ -68,19 +68,50 @@ EPManager.shared.controller(for: conversation) { controller, error in
 
 To run a bot within your App, you first need to add 86% SDK as a pod to your project. Then, there are 2 simple steps to `register` it and create a `conversation`.
 
+### Requirements for your project
+
+Your project must use the AndroidX libraries. This guide assumes that you included `androidx.appcompat` library in your gradle dependencies:
+```
+dependencies {
+    ...
+
+    // AndroidX
+    implementation "androidx.constraintlayout:constraintlayout:1.1.3"
+    implementation "androidx.appcompat:appcompat:1.0.2"
+
+    ...
+}
+``` 
+
+In the gradle.properties file, add the following :
+```
+    android.useAndroidX=true
+    android.enableJetifier=true
+```
+As described in the [Migration to AndroidX guide](https://developer.android.com/jetpack/androidx/migrate)
+
 ### Add 86% SDK to your project
 
-In the project build.gradle add the 86% SDK repository: 
+In the project build.gradle add the 86% SDK repository in the `repositories` section:
 ```
-maven {
-    url "http://artifactory.86percent.co/artifactory/bot-release-local"
+allprojects {
+    repositories {
+        ...
+        maven {
+            url "http://artifactory.86percent.co/artifactory/bot-release-local"
+        }
+        maven { 
+            url "https://jitpack.io" 
+        }
+        ...
+    }
 }
 ```
 
 Then in your app `build.gradle` file, add the following: 
 
 ```
-implementation 'co.86percent:bot:0.10.1’
+implementation 'co.86percent:bot:1.1.0’
 ```
 
 ### Step 1: Register your bot
@@ -90,25 +121,29 @@ Initialize the 86% SDK, typically in your Application `onCreate` , call a `initE
 ```kotlin
 private fun initEightySixPercent() {
     EPManager.init(this)
-    EPManager.registerBot(this, "YOU_BOT_UUID_GOES_HERE", EPBotFetchingStrategy.OnlineWithDefault(1,"bots/SimpleDemo.json"))
+    EPManager.registerBot("YOU_BOT_UUID_GOES_HERE", EPBotFetchingStrategy.OnlineWithDefault(1,"SimpleDemo.json"))
 }
 ```
+
+Where `SimpleDemo.json` is the path of your bot JSON export file, relative to your project `assets` folder.
+
+Note : you need to create the `assets` folder under the `main` folder of your Android project. 
 
 ### Step 2: play your bot
 
 In the activity your want to run the chatbot, add the following: 
 
 ```kotlin
-val conversation = EPChatConversation(“YOU_BOT_UUID_GOES_HERE”)
-EPManager.fragment(this, chatConversation) { chatConversationFragment, exception ->
-    if (chatConversationFragment != null) {
-        val transaction = supportFragmentManager.beginTransaction()
-        transaction.replace(R.id.container, chatConversationFragment)
-        transaction.commit()
-    } else {
-        exception.printStackTrace()
+    val conversation = EPChatConversation(Constants.BotUuid.simpleDemo)
+    EPManager.fragment(this, conversation) { chatConversationFragment, exception ->
+        if (chatConversationFragment != null) {
+            val transaction = supportFragmentManager.beginTransaction()
+            transaction.replace(R.id.container, chatConversationFragment)
+            transaction.commit()
+        } else {
+            exception?.printStackTrace()
+        }
     }
-}
 ```
 
 ## More informations
