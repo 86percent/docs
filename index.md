@@ -19,6 +19,10 @@ It has 2 main components :
 3. [Themes](themes.md): Learn how to customize your bot look & feel in-app.
 
 
+## Demo / tutorial simple Apps :
+* For [iOS](https://github.com/86percent/EightySixPercent_iOS)
+* For [Android](https://github.com/86percent/EightySixPercent_Tutorial_Android) 
+
 ## Mobile SDK Reference
 
 Learn the details on the `Mobile SDK` you'll integrate in Xcode and Android Studio.
