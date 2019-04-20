@@ -70,6 +70,7 @@ To run a bot within your App, you first need to add 86% SDK as a pod to your pro
 
 ### Requirements for your project
 
+#### 1. Your project must use AndroidX:
 Your project must use the AndroidX libraries. This guide assumes that you included `androidx.appcompat` library in your gradle dependencies:
 ```
 dependencies {
@@ -90,6 +91,33 @@ In the gradle.properties file, add the following :
 ```
 As described in the [Migration to AndroidX guide](https://developer.android.com/jetpack/androidx/migrate)
 
+#### 2. Your project should be using Java 8:
+Finally, you need to add the following in the `android` section of the App gradle script:
+ ```
+ android {
+     ...
+     compileOptions {
+         targetCompatibility = "8"
+         sourceCompatibility = "8"
+     }
+     ...
+ }
+ ```
+
+#### 3. Your project need permissions for 86% SDK:
+* Internet permission :
+In most cases, your App will need to access internet to download the latest bot file or to load any picture / GIF / videos you're using in your bot. To do so, add this line to your manifest:
+``` 
+<uses-permission android:name="android.permission.INTERNET" />
+```
+
+* Camera permission: 
+If you intend to use the picture widget, to allow users to take picture, you should add this to your manifest: 
+``` 
+<uses-permission android:name="android.permission.CAMERA" />
+```
+
+
 ### Add 86% SDK to your project
 
 In the project build.gradle add the 86% SDK repository in the `repositories` section:
@@ -108,10 +136,14 @@ allprojects {
 }
 ```
 
-Then in your app `build.gradle` file, add the following: 
+Then in your app `build.gradle` file, add the following, in the `dependencies` section: 
 
 ```
-implementation 'co.86percent:bot:1.1.0’
+dependencies {
+    ...
+    implementation 'co.86percent:bot:1.1.0’
+    ... 
+}
 ```
 
 ### Step 1: Register your bot
