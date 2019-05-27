@@ -166,16 +166,16 @@ Note : you need to create the `assets` folder under the `main` folder of your An
 In the activity your want to run the chatbot, add the following: 
 
 ```kotlin
-    val conversation = EPChatConversation(Constants.BotUuid.simpleDemo)
-    EPManager.fragment(this, conversation) { chatConversationFragment, exception ->
-        if (chatConversationFragment != null) {
-            val transaction = supportFragmentManager.beginTransaction()
-            transaction.replace(R.id.container, chatConversationFragment)
-            transaction.commit()
-        } else {
-            exception?.printStackTrace()
-        }
+val conversation = EPChatConversation(Constants.BotUuid.simpleDemo)
+EPManager.fragment(this, conversation) { chatConversationFragment, exception ->
+    if (chatConversationFragment != null) {
+        val transaction = supportFragmentManager.beginTransaction()
+        transaction.replace(R.id.container, chatConversationFragment)
+        transaction.commit()
+    } else {
+        exception?.printStackTrace()
     }
+}
 ```
 
 ## More informations
