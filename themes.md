@@ -4,6 +4,14 @@ description: (draft documentation)<br/>Customize the look & feel of your in-app 
 layout: page
 ---
 
+# Overview 
+
+Themes let you customize the look & feel of your in-app conversations.
+
+Before coding the appearance, a designer will often be involved to design it. To help doing with this step, here's a [Sketch document](/resources/86Percent_Theme_template.sketch) that can be customized easily.
+
+![Sketch Document Preview](/resources/SketchPreview.png)
+
 # EPAppearance
 
 To create a theme, you'll have to handle an `EPAppearance` object.
