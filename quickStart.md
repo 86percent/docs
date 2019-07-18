@@ -115,6 +115,7 @@ In most cases, your App will need to access internet to download the latest bot 
 
 * Camera permission: 
 If you intend to use the picture widget, to allow users to take picture, you should add this to your manifest: 
+
 ``` 
 <uses-permission android:name="android.permission.CAMERA" />
 ```
@@ -123,6 +124,7 @@ If you intend to use the picture widget, to allow users to take picture, you sho
 ### Add 86% SDK to your project
 
 In the project build.gradle add the 86% SDK repository in the `repositories` section:
+
 ```
 allprojects {
     repositories {
