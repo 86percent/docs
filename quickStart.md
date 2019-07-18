@@ -93,6 +93,7 @@ As described in the [Migration to AndroidX guide](https://developer.android.com/
 
 #### 2. Your project should be using Java 8:
 Finally, you need to add the following in the `android` section of the App gradle script:
+
  ```
  android {
      ...
@@ -107,6 +108,7 @@ Finally, you need to add the following in the `android` section of the App gradl
 #### 3. Your project need permissions for 86% SDK:
 * Internet permission :
 In most cases, your App will need to access internet to download the latest bot file or to load any picture / GIF / videos you're using in your bot. To do so, add this line to your manifest:
+
 ``` 
 <uses-permission android:name="android.permission.INTERNET" />
 ```
